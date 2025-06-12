@@ -4,6 +4,7 @@ let latestData = null;
 
 export async function POST(req) {
   const body = await req.json();
+  console.log("Body dari klien:", body);
 
   const calories = calculateCalories(body);
 
@@ -30,7 +31,7 @@ function calculateCalories({ age, gender, weight, height, activity, goal }) {
   const a = parseFloat(age);
 
   let bmr =
-    gender === "male"
+    gender === "laki-laki"
       ? 10 * w + 6.25 * h - 5 * a + 5
       : 10 * w + 6.25 * h - 5 * a - 161;
 

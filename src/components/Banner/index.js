@@ -5,7 +5,6 @@ const Banner = () => {
     <section className="px-6 py-10 max-w-6xl mx-auto">
       <h2 className="text-3xl font-semibold text-center mb-10">Our Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {/* Expert Nutritionist Consultations */}
         <div className="md:col-span-1 bg-yellow-50 rounded-xl p-4 flex flex-col justify-between">
           <h3 className="font-semibold text-lg mb-2">
             Expert Nutritionist Consultations
@@ -15,7 +14,6 @@ const Banner = () => {
           </p>
         </div>
 
-        {/* Middle top image (dietician with screen) */}
         <div className="md:col-span-2">
           <div className="rounded-xl overflow-hidden">
             <Image
@@ -28,7 +26,6 @@ const Banner = () => {
           </div>
         </div>
 
-        {/* Left bowl image */}
         <div className="rounded-xl overflow-hidden">
           <Image
             src="/services/pasta.jpg"
@@ -39,7 +36,6 @@ const Banner = () => {
           />
         </div>
 
-        {/* Personalized Diet Plan */}
         <div className="bg-yellow-50 rounded-xl p-4">
           <h3 className="font-semibold text-lg mb-2">Personalized Diet Plan</h3>
           <p className="text-sm">
@@ -48,7 +44,6 @@ const Banner = () => {
           </p>
         </div>
 
-        {/* Child Eating */}
         <div className="rounded-xl overflow-hidden">
           <Image
             src="/services/happy-child.jpg"
@@ -59,7 +54,6 @@ const Banner = () => {
           />
         </div>
 
-        {/* Fruits Image */}
         <div className="rounded-xl overflow-hidden">
           <Image
             src="/services/fruits.jpg"
@@ -70,7 +64,6 @@ const Banner = () => {
           />
         </div>
 
-        {/* Instant Ingredient Delivery */}
         <div className="bg-yellow-50 rounded-xl p-4 md:col-span-2">
           <h3 className="font-semibold text-lg mb-2">
             Instant Ingredient Delivery
