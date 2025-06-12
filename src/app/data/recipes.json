@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Nasi Bakar Ayam",
+    "slug": "nasi-bakar-ayam",
+    "ingredients": "1 piring nasi, fillet ayam",
+    "kalori": 3226,
+    "protein": 148.2,
+    "lemak": 216.6,
+    "karbohidrat": 176.0
+  },
+  {
+    "title": "Steak Ayam",
+    "slug": "steak-ayam",
+    "ingredients": "300 gr dada ayam fillet",
+    "kalori": 2424,
+    "protein": 79.8,
+    "lemak": 158.1,
+    "karbohidrat": 189.0
+  }
+]
